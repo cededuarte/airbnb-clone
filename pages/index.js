@@ -88,7 +88,7 @@ const Home = ({ searchResults }) => {
 export default Home;
 
 export const getServerSideProps = async () => {
-  const searchResults = await fetch("https://jsonkeeper.com/b/5NPS").then(
+  const searchResults = await fetch("https://jsonkeeper.com/b/LBIF").then(
     (res) => res.json()
   );
 

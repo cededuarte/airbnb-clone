@@ -24,15 +24,15 @@ const Map = ({ searchResults, className }) => {
   
   const [selectedLocation, setSelectedLocation] = useState({
     description:
-      "1 guest · 1 bedroom · 1 bed · 1.5 shared bthrooms · Wifi · Kitchen · Free parking · Washing Machine",
-    img: "https://links.papareact.com/xqj",
-    lat: 51.5421655,
-    location: "Private room in center of London",
-    long: -0.0022275,
-    price: "£30 / night",
-    star: 4.73,
-    title: "Stay at this spacious Edwardian House",
-    total: "£117 total",
+      "2 guests | 1 bed | 1 T&B | Wifi",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Island_Shangri-La%2C_Hong_Kong_-_Horizon_Harbour_View_Room.JPG/640px-Island_Shangri-La%2C_Hong_Kong_-_Horizon_Harbour_View_Room.JPG",
+    lat: 14.55363,
+    location: "Makati, Philippines",
+    long: 121.02473,
+    price: "₱50 per night",
+    star: 4.9,
+    title: "Horizon Harbour View Room",
+    total: "₱15000",
   });
 
   return (
